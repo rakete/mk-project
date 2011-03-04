@@ -114,8 +114,6 @@ The behaviour of this command is modified with
                         (add-to-list 'resulting-matches file)))))
             (setq resulting-matches (append resulting-matches friend-matches)))))))
 
-(mk-proj-friend-matches)
-
 (defun mk-proj-friendly-buffer-p (buf)
   (let ((file-name (mk-proj-buffer-name buf)))
     (if (and file-name
